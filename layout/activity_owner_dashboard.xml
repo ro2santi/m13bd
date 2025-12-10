@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    tools:context=".OwnerDashboardActivity">
+
+    <TextView
+        android:id="@+id/tv_dashboard_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Owner Dashboard"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btn_manage_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah/Kelola Produk"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_check_buyers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cek Pembeli &amp; Riwayat Order"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_manage_cashiers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kelola Akun Kasir"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btn_owner_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

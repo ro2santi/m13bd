@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_buyer_menu"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="Menu" />
+
+    <item
+        android:id="@+id/nav_buyer_orders"
+        android:icon="@android:drawable/ic_menu_slideshow"
+        android:title="Pesanan Saya" />
+
+    <item
+        android:id="@+id/nav_buyer_profile"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Profil" />
+
+    <item
+        android:id="@+id/nav_buyer_logout"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="Logout" />
+</menu>
